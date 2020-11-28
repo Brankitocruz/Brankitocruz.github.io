@@ -1,0 +1,222 @@
+* {
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+    color: black;
+}
+
+header{
+    background-color: blue;
+    margin: 15px 10px;
+    border-radius: 15px;
+    padding: 20px 0px;
+}  
+
+main{
+    background-image: linear-gradient(to top, #ff0000, #ff3d66, #ff75ad, #ffa6e0, #f8d1fc, #edcdfd, #e0cafe, #d2c7ff, #b19dff, #8d73ff, #6147ff, #0000ff);
+    margin: 15px 10px;
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+
+footer{
+    background-color: red;    
+    font-size: 25px;
+    margin: 15px 10px;
+    border-radius: 15px;
+}
+
+
+/* navbar */
+.headboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+}
+
+.nav {
+    height: 30px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleNameContainer {
+   height: 50px;
+   width: 350px;
+   padding-right: 10px;
+}
+
+.title{
+    margin: 0px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;    
+}
+
+
+
+/* main 1 */
+.definitionContainer {
+    padding-bottom: 50px;
+}
+
+.conteinerGif{
+    display: flex;
+    align-content: flex-start;
+    
+}
+
+.pokemonGif {
+    border-radius: 25px 0px;
+    margin: 40px;
+    height: 350px;
+    width: 500px;
+    
+}
+
+
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* main 2 */
+.imagenContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleImgTextContainer {
+  height: 700px;
+   
+}
+
+.titleImagenContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textGalery {
+    width: 350px;
+    text-align: center;
+}
+
+
+/* main 3 */
+.estudiosContainer {
+    text-align: center;
+    padding-top: 75px;
+    
+}
+
+.textEstudios {
+    font-size: 25px;
+    
+}
+
+/* main 4 */
+
+
+
+/* footer */
+.textFooter {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* extra */
+.bigIcons {
+    height: 128px;
+    width: 128px;
+}
+
+.smallIcons {
+    height: 64px;
+    width: 64px;
+    margin: 10px;
+}
+
+.definitionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.titleImagen{
+    display: flex;
+    align-items: center;
+}
+
+.textDefinition {
+    height: 50px;
+    width: 1000px;
+}
+
+.textOne {
+    text-align: center;
+}
+
+.imagen {
+    border-radius: 25px 0px;
+    height: 350px;
+    width: 350px;
+    padding-bottom: 15px;
+    filter: blur(10px);
+}
+
+h1 {
+    margin: 20px;
+}
+
+
+
+.habilidadesBlandasContainer {
+    height: 200px;
+    padding: 20px 0px;
+}
+
+.titleHabilidadesBlandas {
+    display: flex;
+    justify-content: center;
+}
+
+.textHabilidadesBlandas {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+
+}
+
+.parrafoHabilidadesBlandas {
+    margin: 0px 48px;
+}
+
+
+/* footer */
+.contacto {
+    height: 300px;
+    padding: 20px 0px;
+}
+
+.contactoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+}
